@@ -1,0 +1,22 @@
+@import 'vars.scss';
+  .begin {
+  text-align: center;
+}
+
+.practice-begin__btn {
+  --w: 96px;
+  height: var(--w);
+  width: var(--w);
+  padding: 0 8px;
+  border-radius: calc(var(--w) / 2);
+  font-size: 16px;
+  text-transform: uppercase;
+  color: color(primary-light);
+  background-color: color(key-current);
+  box-shadow: 0 4px 2px 0 rgba(#333,0.5);
+  &--hover:hover {
+    background-color: darken(color(key-current), 10%);
+    box-shadow: 0 6px 2px 0 rgba(#333,0.5);
+  }
+
+}

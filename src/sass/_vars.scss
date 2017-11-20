@@ -1,0 +1,12 @@
+$colors: (
+  primary-dark: #424242,
+  secondary-dark: #616161,
+  primary-light: #ffffff,
+  key-current: #03A9F4,
+  key-error: #EF5350,
+  key-success: #43A047
+);
+
+@function color($color-name) {
+  @return map-get($colors, $color-name);
+}

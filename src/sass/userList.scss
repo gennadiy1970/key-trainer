@@ -1,0 +1,34 @@
+@import 'vars.scss';
+
+.user-list {
+  counter-reset: user-list;
+}
+
+.user-list__item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 0.25rem;
+  color: color(primary-dark);
+  border-bottom: 1px solid #bdbdbd;
+  &:last-child {
+    border-bottom: 0;
+  }
+}
+
+.user-list__item::before {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 1.5rem;
+  width: 1.5rem;
+  border-radius: 50%;
+  counter-increment: user-list;
+  content: counter(user-list);
+  background-color: color(secondary-dark);
+  color: color(primary-light);
+}
+
+.user-list__score {
+  font-weight: bold;
+}

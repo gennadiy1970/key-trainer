@@ -1,0 +1,27 @@
+@import 'vars.scss';
+.lang-ctrls {
+  &__body {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.lang-ctrls__btn {
+  padding: 0;
+  outline: 0;
+  width: 3.25rem;
+  height: 3.25rem;
+  border-radius: 0.25rem;
+  font-size: 1.125rem;
+  color: color(primary-light);
+  text-transform: uppercase;
+  background-color: color(secondary-dark);
+  box-shadow: 0 4px 2px 0 rgba(#333, 0.5);
+  &:hover {
+    box-shadow: 0 6px 2px 0 rgba(#333, 0.5);
+  }
+  &--active {
+    background-color: color(key-current);
+    box-shadow: 0 2px 2px 0 rgba(#333, 0.5);
+  }
+}

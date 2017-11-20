@@ -1,0 +1,33 @@
+@import 'vars.scss';
+.user {
+    padding: 20px 5px;
+}
+
+.user label {
+    display: block;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+.user input {
+    display: block;
+    height: 40px;
+    width: 100%;
+    text-indent: 1rem;
+}
+
+.user input[type="submit"] {
+    height: 40px;
+    padding: 0 8px;
+    border-radius: 0.25rem;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: color(primary-light);
+    background-color: color(key-current);
+    box-shadow: 0 4px 2px 0 rgba(#333, 0.5);
+    &:hover {
+        background-color: darken(color(key-current), 10%);
+        box-shadow: 0 6px 2px 0 rgba(#333, 0.5);
+    }
+}
+

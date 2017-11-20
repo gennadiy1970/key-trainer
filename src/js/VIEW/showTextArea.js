@@ -1,0 +1,3 @@
+function showTextArea () {
+  showElem(wrpTextArea);
+}

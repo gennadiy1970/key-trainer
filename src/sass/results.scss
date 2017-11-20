@@ -1,0 +1,24 @@
+@import 'vars.scss';
+
+.results__stat {
+  color: color(primary-dark);
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 14px;
+  &--last {
+    margin-bottom: 0;
+  }
+}
+
+.results__value {
+  display: block;
+  margin-top: 6px;
+  font-size: 30px;
+  font-weight: 600;
+  &--success {
+    color: color(key-success);
+  }
+  &--errors {
+    color: color(key-error);
+  }
+}

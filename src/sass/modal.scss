@@ -1,0 +1,16 @@
+@import 'vars.scss';
+.modal {
+  position: relative;
+  width: 50%;
+  transform: translateY(-110%);
+  padding: 60px 20px;
+  transition: transform 0.3s linear;
+  box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 2px;
+  &:hover {
+    transform: translateY(-25%);
+  }
+  p {
+    text-align: center;
+  }
+}
