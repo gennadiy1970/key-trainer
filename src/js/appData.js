@@ -24,7 +24,6 @@ const appData = {
         ua: "хвацький юшковар філіп щодня готує сім'ї вечерю з жаб.",
         ru: "съешь же ещё этих мягких французских булок, да выпей чаю."
     },
-    // currentUser
     userCurrent: {
         id: 'id-User',
         restID: -1,
@@ -33,6 +32,6 @@ const appData = {
     },
     // savedUser
     userSaved: false,
-    url    : 'http://fecore.net.ua/rest/'
+    url    : 'http://fecore.net.ua/api/'
 };
 

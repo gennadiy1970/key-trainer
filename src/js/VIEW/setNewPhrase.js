@@ -1,6 +1,6 @@
 function setNewPhrase(event) {
     event.preventDefault();
-    console.log('setNewPhrase');
+    // console.log('setNewPhrase');
     let lng = 'en';
 
     Array.from(radioLang, elem => {
