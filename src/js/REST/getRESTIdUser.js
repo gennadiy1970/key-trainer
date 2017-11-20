@@ -1,6 +1,10 @@
 function getRESTIdUser () {
     fetch(appData.url, {
-        metod: "get"
+        metod: "get",
+        mode: 'cors',
+        headers:{
+            'Access-Control-Allow-Origin':'*'
+        }
     })
         .then((response) => {
             let json = response.json();

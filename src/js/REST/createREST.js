@@ -3,7 +3,11 @@ function createREST (obj) {
     console.log(createUrl);
 
     fetch(createUrl, {
-        metod: "post"
+        metod: "post",
+        mode: 'cors',
+        headers:{
+            'Access-Control-Allow-Origin':'*'
+        }
     })
     .catch(function (error) {
         console.log('CreateREST: Fetch Error :-S', error);
