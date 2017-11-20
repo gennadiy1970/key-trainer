@@ -20,7 +20,7 @@ const appData = {
     results: [],
     timerCurrent: 0,
     typingText: {
-        en: "q we",
+        en: "the quick brown fox jumps over the lazy dog.",
         ua: "хвацький юшковар філіп щодня готує сім'ї вечерю з жаб.",
         ru: "съешь же ещё этих мягких французских булок, да выпей чаю."
     },
