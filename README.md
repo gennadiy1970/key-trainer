@@ -1,2 +1,2 @@
 # key-trainer
-Typing Trainer
+[Typing Trainer](https://gennadiy1970.github.io/key-trainer/dist/)
